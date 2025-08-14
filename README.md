@@ -1,8 +1,6 @@
-
 # PHI Website
 
 This repository contains the PHI Website, a modern web application built with Next.js, TypeScript, Tailwind CSS, and shadcn/ui. The site features a comprehensive design system and several main pages, including Home, Our Story, Services, and Contact. All design guidelines and implementation details are documented in the `docs/` directory.
-
 
 ## Tech Stack
 
@@ -12,12 +10,12 @@ This repository contains the PHI Website, a modern web application built with Ne
 - **shadcn/ui** – Reusable UI components
 - **ESLint** – Code quality and consistency
 
-
 ## Getting Started
 
 ### Prerequisites
 
 Make sure you have the following installed:
+
 - Node.js (v18 or newer)
 - npm or yarn
 
@@ -42,7 +40,6 @@ Make sure you have the following installed:
    ```
 4. Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-
 ## Project Structure
 
 ```
@@ -64,7 +61,6 @@ Make sure you have the following installed:
 └── ...other config files
 ```
 
-
 ## Customizing the Website
 
 - **Content**: Edit the main pages in `src/app/` (`page.tsx`, `our-story/page.tsx`, `services/page.tsx`, `contact/page.tsx`) to update text and images.
@@ -73,10 +69,10 @@ Make sure you have the following installed:
 - **UI Components**: Use or extend the reusable components in `src/components/ui/`.
 - **Styling**: Adjust styles in `globals.css` and `tailwind.config.mjs`.
 
-
 ## Design System Documentation
 
 The `docs/` directory contains:
+
 - Brand foundation (`01-brand-foundation.md`)
 - Typography (`02-typography.md`)
 - Color system (`03-color-system.md`)
@@ -84,22 +80,20 @@ The `docs/` directory contains:
 - Components (`05-components.md`)
 - Implementation guidelines (`06-implementation.md`)
 
-
 ## Using the Design System and Documentation
 
 Refer to the numbered docs for guidance on brand, typography, color, spacing, components, and implementation. Follow the recommended order for best results. Use these docs to ensure consistency and quality across all pages and components.
 
-
 ## Deployment
 
 Deploy easily with [Vercel](https://vercel.com):
+
 1. Create a Vercel account
 2. Connect your GitHub
 3. Import this repository
 4. Deploy
 
 Or use any hosting service that supports Next.js.
-
 
 ## Additional Resources
 
