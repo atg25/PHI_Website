@@ -60,10 +60,10 @@ export default function RootLayout({
                 Pure Home Inspection LLC © {new Date().getFullYear()}
               </div>
               <div className="text-sm mt-1">
-                Tabernacle, NJ 08088 &bull; Serving South Jersey
+                326 Tuckerton Rd, Tabernacle, NJ 08088
               </div>
               <div className="text-sm mt-1">
-                NJ Home Inspector Lic. # 24GI00155400
+                NJ Home Inspector License # 24GI00155400
               </div>
             </div>
             <div className="text-center md:text-right space-y-1">
@@ -83,7 +83,7 @@ export default function RootLayout({
                 </a>
               </div>
               <div className="text-xs text-neutral-400 mt-2">
-                Designed by Advantage Media Partners
+                Designed by AG Media
               </div>
             </div>
           </div>

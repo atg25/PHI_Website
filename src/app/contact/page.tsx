@@ -68,6 +68,10 @@ export default function ContactPage() {
             onSubmit={handleSubmit}
             className="space-y-6 text-left mt-8"
           >
+            <div className="bg-red-100 border border-red-400 text-red-700 rounded-lg px-4 py-3 mb-6 text-center animate-fade-in-up">
+              <strong>Notice:</strong> Our contact form is temporarily unavailable while we set up our company email.<br />
+              Please email <a href="mailto:purehomeinspectionllc@gmail.com" className="text-primary font-bold underline">purehomeinspectionllc@gmail.com</a> or call <a href="tel:6098201556" className="text-primary font-bold underline">(609) 820-1556</a> directly. Thank you for your patience!
+            </div>
             <div>
               <label
                 htmlFor="name"

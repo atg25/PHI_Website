@@ -51,6 +51,17 @@ export default function Home() {
             Our process is designed to give you peace of mind and a clear
             understanding of your investment.
           </div>
+          <div className="text-lg md:text-xl text-neutral-800 max-w-3xl mx-auto text-center mb-6">
+            <span className="inline-block bg-accent-gold/20 border border-accent-gold rounded-xl shadow-lg px-6 py-3 mb-2 animate-fade-in-up">
+              <a
+                href="tel:609-820-1556"
+                className="text-primary font-bold underline hover:text-primary-dark focus:outline-none"
+              >
+                Call Now
+              </a>
+              &nbsp;to schedule your inspection or learn more!
+            </span>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="flex flex-col items-center text-center">
               <div className="text-5xl mb-2 text-accent-gold">1</div>
@@ -97,7 +108,7 @@ export default function Home() {
               <li>Personalized service—your questions always answered</li>
             </ul>
           </div>
-        </section>
+  </section>
 
         {/* Services Section */}
         <section className="py-16 bg-white animate-fade-in-up rounded-3xl shadow-md mx-auto max-w-9xl">
@@ -306,7 +317,7 @@ export default function Home() {
         {/* Contact & Service Area */}
         <section className="text-center py-12 space-y-4">
           <h2 className="text-2xl font-heading font-bold text-primary">
-            Schedule An Appointment Or Get an Instant Quote
+            Schedule an Appointment or Call for an Instant Quote
           </h2>
           <p className="text-lg text-neutral-800">
             Call{" "}
@@ -322,7 +333,7 @@ export default function Home() {
             </a>
           </p>
           <p className="text-neutral-700">
-            Serving Tabernacle, NJ 08088 and all of South Jersey
+            Serving all of South Jersey, one home at a time.
           </p>
           <div className="mt-8">
             <Link
